@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #0f172a;
+    --bg-card: #121824;
+    --bg-card-hover: #1a2234;
+
+    --primary: #6366f1;
+    --primary-hover: #4f46e5;
+    --secondary: #06b6d4;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border-color: #1e293b;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-nav {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.footer-bg {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+}
