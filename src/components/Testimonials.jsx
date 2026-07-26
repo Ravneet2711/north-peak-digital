@@ -28,7 +28,7 @@ const Testimonials = () => {
           >
             <Quote size={34} className="text-indigo-500 mb-6 opacity-80" />
 
-            {/* Rating */}
+          
             <div className="flex gap-1 mb-5">
               {[...Array(5)].map((_, index) => (
                 <Star
@@ -43,10 +43,10 @@ const Testimonials = () => {
               ))}
             </div>
 
-            {/* Review */}
+          
             <p className="text-gray-600 leading-7">"{testimonial.review}"</p>
 
-            {/* Client */}
+        
             <div className="mt-8">
               <h4 className="font-semibold text-gray-900">
                 {testimonial.name}
