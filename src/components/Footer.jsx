@@ -14,10 +14,22 @@ const Footer = () => {
           </span>
         </div>
 
-        <p className="text-xs text-slate-400">
-          © {new Date().getFullYear()} NorthPeak Digital. All rights reserved.
-        </p>
-
+        <div className="flex flex-col">
+          <p className="text-xs text-slate-400">
+            © {new Date().getFullYear()} NorthPeak Digital. All rights reserved.
+          </p>
+          <p className="text-xs text-slate-500 text-center">
+            Built for{" "}
+            <a
+              href="https://digitalheroesco.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-400 hover:text-indigo-300 hover:underline"
+            >
+              Digital Heroes Training Task
+            </a>
+          </p>
+        </div>
         <div className="flex items-center gap-4 text-slate-400">
           <a
             href="mailto:contact@northpeakdigital.com"
@@ -50,6 +62,22 @@ const Footer = () => {
           >
             <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
               <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+            </svg>
+          </a>
+          <a
+            href="https://x.com"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-white transition-colors p-1"
+            aria-label="X"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-4 h-4"
+            >
+              <path d="M18.901 1.153h3.68L14.54 10.34 24 22.846h-7.406l-5.8-7.584-6.62 7.584H.49l8.6-9.857L0 1.154h7.594l5.243 6.932L18.9 1.153Zm-1.29 19.49h2.04L6.486 3.248H4.298L17.61 20.643Z" />
             </svg>
           </a>
         </div>

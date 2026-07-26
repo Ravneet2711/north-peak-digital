@@ -39,11 +39,7 @@ const Navbar = () => {
           href="#contact"
           className="group hidden md:flex items-center gap-2 px-5 py-2.5 border border-white/70 rounded-xl text-sm font-medium text-white bg-gradient-to-r from-indigo-600 to-indigo-500 border border-indigo-400/30 transition-all duration-300 hover:from-indigo-500 hover:to-indigo-400  hover:shadow-lg hover:shadow-indigo-500/30 "
         >
-          <span>Get Started</span>
-          <ArrowRight
-            size={16}
-            className="transition-transform duration-300 group-hover:translate-x-1 text-indigo-200"
-          />
+          Start Your Project
         </a>
         <button
           className="mobile-menu md:hidden"
@@ -94,7 +90,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="flex items-center justify-center gap-2 bg-indigo-600 text-white py-2 rounded-lg mt-2"
           >
-            Get Started <ArrowRight size={16} />
+            Start Your Project{" "}
           </a>
         </div>
       )}

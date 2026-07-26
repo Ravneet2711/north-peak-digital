@@ -28,7 +28,6 @@ const Testimonials = () => {
           >
             <Quote size={34} className="text-indigo-500 mb-6 opacity-80" />
 
-          
             <div className="flex gap-1 mb-5">
               {[...Array(5)].map((_, index) => (
                 <Star
