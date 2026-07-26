@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-[#111827] py-20  px-6 ">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-500">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-300">
           GET IN TOUCH
         </p>
 

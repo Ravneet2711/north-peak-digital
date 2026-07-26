@@ -18,7 +18,7 @@ const Footer = () => {
           <p className="text-xs text-slate-400">
             © {new Date().getFullYear()} NorthPeak Digital. All rights reserved.
           </p>
-          <p className="text-xs text-slate-500 text-center">
+          <p className="text-xs text-slate-300 text-center">
             Built for{" "}
             <a
               href="https://digitalheroesco.com"

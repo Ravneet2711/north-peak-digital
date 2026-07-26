@@ -44,6 +44,7 @@ const Navbar = () => {
         <button
           className="mobile-menu md:hidden"
           onClick={() => setIsOpen((prev) => !prev)}
+          aria-label={isOpen ? "Close menu" : "Open menu"}
         >
           {isOpen ? <X /> : <Menu />}
         </button>
