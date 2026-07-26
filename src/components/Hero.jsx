@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/pattern2.jpg";
+import heroImg from "../assets/pattern2.webp";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
